@@ -1,0 +1,74 @@
+header p {
+  color: #333;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  margin-top: 40px;
+  margin-left: 77px;
+  margin-bottom: 150px;
+}
+
+.middle-section {
+  display: flex;
+}
+
+.scarecrow {
+  margin-left: 77px;
+  width: 540px;
+  height: 400px;
+  margin-right: 120px;
+}
+
+.right-title {
+  width: 586px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+  margin-bottom: 36px;
+  margin-right: 120px;
+}
+
+.right-subtitle {
+  width: 381px;
+  color: #4f4f4f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+  margin-bottom: 30px;
+  margin-right: 323px;
+}
+
+.right-button {
+  background: #333;
+  width: 216px;
+  height: 68px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+footer {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
