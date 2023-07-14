@@ -1,4 +1,4 @@
-header p {
+header h2 {
   color: #333;
   font-family: "Inconsolata", monospace;
   font-size: 24px;
@@ -71,4 +71,40 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+/* smaller screen  */
+@media screen and (max-width: 576px) {
+  .middle-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .middle-section img {
+    width: 287px;
+    height: 238px;
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+
+  .right-title {
+    margin-top: 60px;
+    font-size: 48px;
+    width: 350px;
+    padding-left: 24px;
+  }
+
+  .right-subtitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    font-size: 18px;
+    padding-left: 24px;
+  }
+
+  .right-button {
+    margin-left: 24px;
+    width: 216px;
+    height: 68px;
+  }
 }
